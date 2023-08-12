@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.slider {
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.slider img{
+    width: 100%;
+}
+.left{
+    position: absolute;
+    left:0;
+    top:50%;
+    z-index: 20;
+    background: rgba(0,0,0,0.7);
+    padding:10px;
+}
+.right{
+     position: absolute;
+    right:0;
+    top:50%;
+    z-index: 20;
+    background: rgba(0,0,0,0.7);
+     padding:10px;
+}
+.left-arrow,.right-arrow{
+    color:#fff;
+    font-size:20px;
+}
